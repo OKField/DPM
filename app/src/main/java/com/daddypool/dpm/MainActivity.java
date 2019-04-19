@@ -212,7 +212,6 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
                     adapterCurrency.add("ZENY");
                     adapterCurrency.add("BELL");
                     adapterCurrency.add("KOTO");
-                    adapterCurrency.add("MONA");
                     spC.setAdapter(adapterCurrency);
                 }else if (item.equals("NOMP.ZNY.POWERPOOL")){
                     adapterCurrency.add("ZENY");
@@ -317,9 +316,6 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
                     }else if (item2.equals("BELL") ) {
                         Currency = "bellcoin";
                         fileName = "Hitobellcoin.txt";
-                    }else if (item2.equals("MONA") ) {
-                        Currency = "monacoin_mainnet";
-                        fileName = "Hitomonacoin.txt";
                     }else if (item2.equals("KOTO") ) {
                         Currency = "koto";
                         fileName = "Hitokotocoin.txt";
